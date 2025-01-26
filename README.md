@@ -19,8 +19,3 @@ luacheck filter.lua
 ```
 
 Alternatively, instead of adding this repository as a submodule, you can place the configuration file in another directory [where `luacheck` expects to find it](https://luacheck.readthedocs.io/en/stable/config.html) (using a symlink as above).
-
-
-## Known limitations
-
-Currently, only a small subset of the available readable and writable global objects are included in `.luacheckrc` (only those that I have used in my own filters so far). If you encounter a missing global, please submit a PR.
